@@ -7,8 +7,6 @@
 
 2. 아래 내용을 이용해서 문서작성법을 배워봅시다.
 
-<hr>
-
 # #마크다운 문서 작성하기 예제
 
 ## ##마크다운 문서 작성하기 예제
@@ -47,5 +45,26 @@
 > BlockQuote    
 > BlockQuote   
 > BlockQuote
-> 
+
+
+
+
+# 코드넣기
+
+    class ShoppingList extends React.Component {
+
+    render() {
+        return(
+            <div className="shopping-list">
+            <h1>Shopping List for {this.props.name}</h1>
+            <ul>
+            <li>Instagram</li>
+            <li>WhatsApp</li>
+            <li>Oculus</li>
+            </ul>
+    </div>);
+            }
+    }
+
+    // 사용 예제: <ShoppingList name="Mark" />
 
