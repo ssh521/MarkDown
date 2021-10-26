@@ -69,8 +69,16 @@
     // 사용 예제: <ShoppingList name="Mark" />
 
 마크다운 문서를 만들어 보았다.     
-  
-  
+
+<br><br>
+
+# 문단 간격만들기
+
+html 에서 사용하는 코드를 입력하면 된다.
+<pre><code>
+</br></br>
+</code></pre>
+
 <br><br>
 
 
